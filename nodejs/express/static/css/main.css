@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+}
+body {
+  text-align: center;
+}
+.form-group {
+  padding: 20px;
+}
+input {
+  padding: 8px;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
