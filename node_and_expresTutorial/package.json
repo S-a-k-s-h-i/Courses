@@ -1,0 +1,12 @@
+{
+  "name": "node_and_express_-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
