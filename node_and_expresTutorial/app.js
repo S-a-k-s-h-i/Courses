@@ -1,10 +1,11 @@
-const http = require('http');
+const express = require("express");
+const app = express();
+const { people } = require('./public/data')
 
-const server = http.createServer((req,res) => {
-    console.log('request event')
-    res.end('hello world')
+app.get('/api/people',(req,res) => {
+    res.status(200).json({success:true, data:people})
 })
 
-server.listen(3000, () => {
+app.listen(3000,() => {
     console.log('listening on port 3000')
 })
