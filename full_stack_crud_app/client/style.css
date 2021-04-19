@@ -1,0 +1,21 @@
+main {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+main div {
+  padding: 20px;
+}
+table {
+  margin: 50px auto;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+th,
+td {
+  padding: 5px;
+}
