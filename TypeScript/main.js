@@ -1,0 +1,28 @@
+"use strict";
+exports.__esModule = true;
+var message = "Hii TypeScript";
+console.log(message);
+var x = 10;
+var y = 20;
+var isBegginer = true;
+var total = 0;
+var name = "Sakshi";
+var sentence = "I am " + name + " and isBeginner is " + isBegginer;
+console.log(sentence);
+var isNew = null;
+var myName = undefined;
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3];
+var person1 = ['Joy', 20];
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 5] = "Red";
+    Color[Color["Green"] = 6] = "Green";
+    Color[Color["Blue"] = 7] = "Blue";
+})(Color || (Color = {}));
+;
+var c = Color.Green;
+console.log(c);
+var multiType;
+multiType = 20;
+multiType = true;
