@@ -1,7 +1,13 @@
 export default 
+interface pointSchema{
+     x:number,
+     y:number
+}
+
 class Point{
-    X:Number;
-    Y:Number
+   constructor(p:pointSchema){
+
+   }
 
     draw(){
         //
@@ -10,5 +16,9 @@ class Point{
         //
     }
 }
-let pp = new Point()
-pp.draw()
+
+let p1 = {
+    x:12,
+    y:23
+}
+const point1 = new Point(p1)

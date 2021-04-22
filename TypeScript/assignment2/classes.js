@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var Point = /** @class */ (function () {
-    function Point() {
+    function Point(p) {
     }
     Point.prototype.draw = function () {
         //
@@ -11,6 +11,8 @@ var Point = /** @class */ (function () {
     };
     return Point;
 }());
-exports["default"] = Point;
-var pp = new Point();
-pp.draw();
+var p1 = {
+    x: 12,
+    y: 23
+};
+var point1 = new Point(p1);
